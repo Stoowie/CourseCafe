@@ -1,7 +1,33 @@
-body{
+/* Styling the navbar */
+.navbar {
+    background-color: #8b8b8b; /* Grey color */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Darker grey color for text */
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #ddd; /* Lighter grey color on hover */
+  }
+  
+  body{
     height: 100%;
     margin: 0;
-    display: flex;
+    display: block;
     justify-content: center;
     
 }
@@ -17,8 +43,7 @@ body{
     height: 50px;
 }
 
-.searchFunc{
-    
+.searchFunc{  
     margin: 4px;
 }
 

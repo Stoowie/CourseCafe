@@ -1,10 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="..\css\exsearch.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+  </ul>
+</nav>
+
 <?php
+
+
 // Database connection settings
 $dsn = "mysql:host=localhost;dbname=ccdb";
 $username = "root"; // your MySQL username
 $password = ""; // your MySQL password
 
 $database = "ccdb"; // your database name
+
 
 if (isset($_GET['query'])) {
     $query = $_GET['query'];
@@ -43,3 +63,7 @@ if (isset($_GET['query'])) {
     }
 }
 ?>
+    
+</body>
+</html>
+
